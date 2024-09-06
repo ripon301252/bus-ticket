@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                             <div class="mt-[-12px]">
-                                <button class="btn text-[#4fd63a] bg-[#e5f8f4] hover:bg-[#e5f8f4] mt-3"> <img src="img/seat-green.png" alt=""> 40 Seats left</button>
+                                <button class="btn text-[#4fd63a] bg-[#e5f8f4] hover:bg-[#e5f8f4] mt-3"> <img src="img/seat-green.png" alt="">  <p><span id="seat-left">40</span> Seats left</p></button>
                             </div>
                         </div>
                         <div class="bg-[#fafafa] rounded-md mt-[-15px] p-6">
@@ -210,84 +210,84 @@
                                 </div>
                                 <div>
                                     <!-- A -->
-                                    <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold p-8">
+                                    <div  class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold p-8">
                                         <div class="mt-2">A</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">A-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md mr-16"><a href="#">A-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">A-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">A-4</a></div>                                
+                                        <div onclick="busTicketA1()" id="A1" class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">A-1</div>
+                                        <div onclick="busTicketA2()" id="A2" class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md mr-16">A-2</div>
+                                        <div onclick="busTicketA3()" id="A3" class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">A-3</div>
+                                        <div onclick="busTicketA4()" id="A4" class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">A-4</div>                                
                                     </div>
                                     <!-- B -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">B</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">B-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md mr-16"><a href="#">B-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">B-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">B-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">B-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md mr-16">B-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">B-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">B-4</div>                                
                                     </div>
                                      <!-- C -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">C</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">C-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md mr-16"><a href="#">C-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">C-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">C-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">C-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md mr-16">C-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">C-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">C-4</div>                                
                                     </div>
                                      <!-- D -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">D</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">D-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md mr-16"><a href="#">D-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">D-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">D-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">D-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md mr-16">D-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">D-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">D-4</div>                                
                                     </div>
                                      <!-- E -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">E</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">E-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md"><a href="#">E-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">E-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">E-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">E-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md">E-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">E-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">E-4</div>                                
                                     </div>
                                      <!-- F -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">F</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">F-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md"><a href="#">F-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">F-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">F-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">F-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md">F-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">F-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">F-4</div>                                
                                     </div>
                                      <!-- G -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">G</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">G-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md"><a href="#">G-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">G-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">G-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">G-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md">G-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">G-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">G-4</div>                                
                                     </div>
                                     <!-- H -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">H</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">H-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md"><a href="#">H-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">H-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">H-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">H-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md">H-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">H-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">H-4</div>                                
                                     </div>
                                     <!-- I -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">I</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">I-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md"><a href="#">I-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">I-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">I-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">I-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md">I-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">I-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">I-4</div>                                
                                     </div>
                                     <!-- J -->
                                     <div class="flex justify-between grid-rows-5 text-[#8c8fa1] font-bold mt-[-30px] p-8">
                                         <div class="mt-2">J</div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">J-1</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md"><a href="#">J-2</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">J-3</a></div>
-                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md"><a href="#">J-4</a></div>                                
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">J-1</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg mr-16 shadow-md">J-2</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">J-3</div>
+                                        <div class="bg-[#f8f8f8] px-8 py-2 rounded-lg shadow-md">J-4</div>                                
                                     </div>
                                 </div>
                             <div>
@@ -303,11 +303,11 @@
                                 <div class="bg-[#f8f8f8] p-6 rounded-lg">
                                     <table>
                                         <tr class="border-b-2 border-dashed border-b-slate-400 mb-2">
-                                          <th class="">Seat <span class="bg-[#1dd100] px-1 text-[10px] text-white rounded-xl">2</span> </th>
+                                          <th>Seat <span id="seat-count" class="bg-[#1dd100] px-1 text-[10px] text-white rounded-xl">0</span> </th>
                                           <th class="pl-20 ">Class</th>
                                           <th class="pl-20 ">Price</th>
                                         </tr>
-                                        <tr class="text-[#66676c]  font-bold">
+                                        <tr id="numbering" class="text-[#66676c]  font-bold">
                                           <td>C2</td>
                                           <td class="pl-20">Economy</td>
                                           <td class="pl-20">550</td>
@@ -406,5 +406,15 @@
             <button class="btn btn-wide bg-[#20ae5c] hover:bg-[#20ae5c] text-white rounded-full">Continue</button>
         </div>
     </div>
+
+
+
+
+
+
+
+    <script src="tailwind.config.js"></script>
+    <script src="ticket.js"></script>
+    <script src="bus-ticket.js"></script>
 </body>
 </html>
