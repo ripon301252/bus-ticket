@@ -1,5 +1,6 @@
 function busTicketA1(){
     busTicketElementById('A1');
+
     const availableSeat = 40;
     const selectedSeat = 1;
     const noSeat = 0;
@@ -20,6 +21,22 @@ function busTicketA1(){
     else{
         console.log('Nothing')
     }
+
+
+    // seat name
+    getTextElementValueById('seat-name');
+    const seatNameIs = 'A1';
+    setTextElementValueById('seat-name', seatNameIs );
+
+    // catagory
+    getTextElementValueById('catagory');
+    const catagory = 'Economy';
+    setTextElementValueById('catagory', catagory);
+
+    // seat price
+    getTextElementValueById('seat-price');
+    const seatPrice = 550;
+    setTextElementValueById('seat-price', seatPrice);
 }  
 
 
@@ -46,6 +63,24 @@ function busTicketA2(){
     else{
         console.log('Nothing')
     }
+
+
+    // seat name
+    getTextElementValueById('seat-name-1');
+    const seatNameIs = 'A2';
+    setTextElementValueById('seat-name-1', seatNameIs );
+
+    // catagory
+    getTextElementValueById('catagory-1');
+    const catagory = 'Economy';
+    setTextElementValueById('catagory-1', catagory);
+
+    // seat price
+    getTextElementValueById('seat-price-1');
+    const seatPrice = 550;
+    setTextElementValueById('seat-price-1', seatPrice);
+
+    
 }
 
 function busTicketA3(){
@@ -990,22 +1025,10 @@ function busTicketJ3(){
         console.log('Nothing')
     }
 
-    // seat name
-    getTextElementValueById('seat-name');
-    const seatNameIs = 'J3';
-    setTextElementValueById('seat-name', seatNameIs );
-
-    // catagory
-    getTextElementValueById('catagory');
-    const catagory = 'Economy';
-    setTextElementValueById('catagory', catagory);
-
-    // seat price
-    getTextElementValueById('seat-price');
-    const seatPrice = 500;
-    setTextElementValueById('seat-price', seatPrice);
 }
+      
 
+    //---------------------
 function busTicketJ4(){
     busTicketElementById('J4');
 
@@ -1029,21 +1052,5 @@ function busTicketJ4(){
     else{
         console.log('Nothing')
     }
-
-    // seat name
-    getTextElementValueById('seat-name');
-    const seatNameIs = 'J4';
-    setTextElementValueById('seat-name', seatNameIs );
-
-    // catagory
-    getTextElementValueById('catagory');
-    const catagory = 'Economy';
-    setTextElementValueById('catagory', catagory);
-
-    // seat price
-    getTextElementValueById('seat-price');
-    const seatPrice = 500;
-    setTextElementValueById('seat-price', seatPrice);
-
 
 }
