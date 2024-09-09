@@ -1,17 +1,12 @@
 function busTicketA1(){
     busTicketElementById('A1');
 
-    const availableSeat = 40;
-    const selectedSeat = 1;
-    const noSeat = 0;
-    if(availableSeat > selectedSeat){
-        const seatCount = getTextElementValueById('seat-count');
-        const updateSeatCount = seatCount + 1;
-        setTextElementValueById('seat-count', updateSeatCount); 
-    }
-    else {
-        console.log('Nothing')
-    }
+    for(let availableSeat = 0; availableSeat <= 150; availableSeat++){
+            
+            if(availableSeat >= 1){
+                break;
+            }
+        }
 
     if(selectedSeat > noSeat){
         const seatLeft = getTextElementValueById('seat-left')
