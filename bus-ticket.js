@@ -2,9 +2,9 @@ function busTicketA1(){
     busTicketElementById('A1');
     let a = 40;
     while(a > 50){
-        const seatLeft = getTextElementValueById('seat-left')
+        const seatCount = getTextElementValueById('seat-count')
         
-        setTextElementValueById(leftSeat);
+        setTextElementValueById(seatCount);
         if(a < 1 ){
             break;
         }
