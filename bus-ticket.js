@@ -1,9 +1,11 @@
 function busTicketA1(){
     busTicketElementById('A1');
-
-    for(let i = 0; it <= 1; i++){
+    const availableSeat = 40;
+    const selectedSeat = 1;
+    const noSeat = 0;
+    for(let i = 0; it <= 2; i++){
             
-            if(i >= 1){
+            if(i >= 2){
                 break;
             }
         }
