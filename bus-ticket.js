@@ -1,7 +1,7 @@
 function busTicketA1(){
     busTicketElementById('A1');
 
-      const availableSeat = 40;
+    const availableSeat = 40;
     const selectedSeat = 1;
     const noSeat = 0;
     if(availableSeat > selectedSeat){
