@@ -4,11 +4,11 @@ function busTicketA1(){
     const selectedSeat = 1;
     const noSeat = 0;
     for(let i = 0; i <= 2; i++){
-            
-            if(i >= 2){
                 const seatLeft = getTextElementValueById('seat-left')
                 const leftSeat = seatLeft ;
                 setTextElementValueById('seat-left', leftSeat);
+            if(i >= 2){
+                
                 break;
             }
         }
