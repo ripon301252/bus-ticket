@@ -7,7 +7,7 @@ function busTicketA1(){
             
             if(i >= 2){
                 const seatLeft = getTextElementValueById('seat-left')
-                const leftSeat = seatLeft + 1;
+                const leftSeat = seatLeft ;
                 setTextElementValueById('seat-left', leftSeat);
                 break;
             }
