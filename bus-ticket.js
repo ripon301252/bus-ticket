@@ -3,7 +3,7 @@ function busTicketA1(){
     const availableSeat = 40;
     const selectedSeat = 1;
     const noSeat = 0;
-    for(let i = 0; it <= 2; i++){
+    for(let i = 0; i <= 2; i++){
             
             if(i >= 2){
                 break;
