@@ -16,8 +16,6 @@ function setTextElementValueById(elementId,value){
 }
 
 
-
-
 document.getElementById('copupon-apply').addEventListener('keyup', function(event){
     const text = event.target.value;
      const deleteButton = document.getElementById('btn-apply');
