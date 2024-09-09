@@ -54,7 +54,7 @@
                     <p class="mb-7">Yes, you can run unit tests and view the results directly within the app. The <br>
                     integrated testing features allow for a streamlined .</p>
 
-                    <button id="buy-ticket" class="btn font-bold text-black bg-[#4fd63a] hover:bg-[#4fd63a]"><a href="#p-paribahan">Buy Ticket</a>  </button>
+                    <button onclick="buyTicket()" id="btn-ticket" class="btn font-bold text-black bg-[#4fd63a] hover:bg-[#4fd63a]"><a href="#p-paribahan">Buy Ticket</a>  </button>
                     <div class="mb-28">
                         <!--1st div-->
                         <div class="w-56 bg-white flex justify-center rounded-xl py-3 px-10 absolute top-[600px] left-[350px] shadow-md shadow-green-700 ">
@@ -98,7 +98,7 @@
                                 <img class="bg-[#febf0f]" src="img/cupon-devider.png">
                             </div>
                             <div class="bg-[#febf0f] rounded-r-3xl p-8 ">
-                                <h1 class="text-3xl font-bold pt-10">NEW15</h1>
+                                <h1 id="new-15" class="text-3xl font-bold pt-10">NEW15</h1>
                                 <p>Coupon Code</p> 
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                 <img class="bg-[#f78c9c]" src="img/cupon-devider.png">
                             </div>
                             <div class="bg-[#f78c9c] rounded-r-3xl p-8 ">
-                                <h1 class="text-3xl font-bold pt-10">Couple 20</h1>
+                                <h1 id="couple-20" class="text-3xl font-bold pt-10">Couple 20</h1>
                                 <p>Coupon Code</p> 
                             </div>
                         </div>
@@ -126,7 +126,7 @@
             </div>
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-            <div id="p-paribahan" class="bg-[#f8f8f8] p-10 mb-16 rounded-box ">
+            <div id="p-paribahan" class="bg-[#f8f8f8] p-10 mb-16 rounded-box  ">
                 <div class="text-center mb-12">
                     <h1 class="text-3xl font-bold mt-16 mb-5">P.H Paribahan</h1>
                     <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated <br>
@@ -324,8 +324,8 @@
                                     </div>
 
                                     <div class="bg-white flex justify-between px-4 py-2 rounded-lg mb-5">
-                                        <p class="pr-10 text-[14px] text-[#cccdcf] mt-2">Have any copupon?</p>
-                                        <button class="bg-[#1dd100] px-4 py-2 text-white rounded-lg">Applay</button>
+                                        <input id="copupon-apply" type="text" placeholder="Have any copupon?"  class="pr-8 pl-2 text-[14px] text-[#cccdcf] mt-1"></input>
+                                        <button id="btn-apply" class="bg-[#1dd100] px-4 py-2 text-white rounded-lg">Apply</button>
                                     </div>
 
                                     <div>
@@ -345,7 +345,7 @@
                             <input class="mb-6 px-4 pr-[180px] py-3 bg-[#f8f8f8] rounded-lg shadow-md" type="text" placeholder="Enter your phone number">
                             <h1 class="mb-3 font-bold">Email ID</h1>
                            <input class="mb-6 px-4 pr-[180px] py-3 bg-[#f8f8f8] rounded-lg shadow-md" type="text" placeholder="Enter your email id">
-                           <button class="btn btn-wide bg-[#1dd100] hover:bg-[#1dd100] text-white px-[188px]"><a href="#model">Next</a></button>
+                           <button id="btn-next" class="btn btn-wide bg-[#1dd100] hover:bg-[#1dd100] text-white px-[188px]"><a href="#model">Next</a></button>
                         </div>
 
                         <div class="flex gap-6 mx-16">
