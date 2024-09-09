@@ -6,6 +6,9 @@ function busTicketA1(){
     for(let i = 0; i <= 2; i++){
             
             if(i >= 2){
+                const seatLeft = getTextElementValueById('seat-left')
+                const leftSeat = seatLeft + 1;
+                setTextElementValueById('seat-left', leftSeat);
                 break;
             }
         }
