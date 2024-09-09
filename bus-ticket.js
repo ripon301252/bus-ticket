@@ -1,6 +1,6 @@
 function busTicketA1(){
     busTicketElementById('A1');
-
+    
     const availableSeat = 40;
     const selectedSeat = 1;
     const noSeat = 0;
@@ -13,7 +13,6 @@ function busTicketA1(){
         console.log('Nothing')
     }
 
-
     if(selectedSeat > noSeat){
         const seatLeft = getTextElementValueById('seat-left')
         const leftSeat = seatLeft - 1;
@@ -25,20 +24,22 @@ function busTicketA1(){
 
 
     // seat name
-    getTextElementValueById('seat-name');
+    getTextElementValueById('seat-name-1');
     const seatNameIs = 'A1';
-    setTextElementValueById('seat-name', seatNameIs );
+    setTextElementValueById('seat-name-1', seatNameIs );
 
     // catagory
-    getTextElementValueById('catagory');
+    getTextElementValueById('catagory-1');
     const catagory = 'Economy';
-    setTextElementValueById('catagory', catagory);
+    setTextElementValueById('catagory-1', catagory);
 
     // seat price
-    getTextElementValueById('seat-price');
+    getTextElementValueById('seat-price-1');
     const seatPrice = 550;
-    setTextElementValueById('seat-price', seatPrice);
-}  
+    setTextElementValueById('seat-price-1', seatPrice);
+
+    
+} 
 
 
 function busTicketA2(){
