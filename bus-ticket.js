@@ -3,7 +3,7 @@ function busTicketA1(){
     let a = 40;
     while(a > 50){
         const seatCount = getTextElementValueById('seat-count')
-        
+        const updateSeatCount = seatCount + 1;
         setTextElementValueById(seatCount);
         if(a < 1 ){
             break;
