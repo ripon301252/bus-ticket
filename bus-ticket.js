@@ -8,6 +8,7 @@ function busTicketA1(){
         if(a < 1 ){
             break;
         }
+        a++;
     }
 
     if(selectedSeat > noSeat){
