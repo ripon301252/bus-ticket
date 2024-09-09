@@ -1,3 +1,4 @@
+
 function busTicketA1(){
     busTicketElementById('A1');
     
@@ -24,21 +25,31 @@ function busTicketA1(){
 
 
     // seat name
-    getTextElementValueById('seat-name-1');
+    getTextElementValueById('seat-name');
     const seatNameIs = 'A1';
-    setTextElementValueById('seat-name-1', seatNameIs );
+    setTextElementValueById('seat-name', seatNameIs );
 
     // catagory
-    getTextElementValueById('catagory-1');
+    getTextElementValueById('catagory');
     const catagory = 'Economy';
-    setTextElementValueById('catagory-1', catagory);
+    setTextElementValueById('catagory', catagory);
 
     // seat price
-    getTextElementValueById('seat-price-1');
+    getTextElementValueById('seat-price');
     const seatPrice = 550;
-    setTextElementValueById('seat-price-1', seatPrice);
+    setTextElementValueById('seat-price', seatPrice); 
 
-    
+
+    //Total price
+    getTextElementValueById('total-price')
+    const totalPrice = 550 ;
+    setTextElementValueById('total-price', totalPrice);
+
+
+    getTextElementValueById('grand-total-price')
+    const grandTotal = 550 ;
+    setTextElementValueById('grand-total-price', grandTotal);
+   
 } 
 
 
@@ -81,6 +92,17 @@ function busTicketA2(){
     getTextElementValueById('seat-price-1');
     const seatPrice = 550;
     setTextElementValueById('seat-price-1', seatPrice);
+
+
+    // Total price
+    getTextElementValueById('total-price')
+    const totalPrice = 1100 ;
+    setTextElementValueById('total-price', totalPrice);
+
+
+    getTextElementValueById('grand-total-price')
+    const grandTotal =1100 ;
+    setTextElementValueById('grand-total-price', grandTotal);
 
     
 }
@@ -1056,3 +1078,7 @@ function busTicketJ4(){
     }
 
 }
+
+
+
+
