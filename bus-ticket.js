@@ -1,9 +1,9 @@
 function busTicketA1(){
     busTicketElementById('A1');
 
-    for(let availableSeat = 0; availableSeat <= 150; availableSeat++){
+    for(let i = 0; it <= 1; i++){
             
-            if(availableSeat >= 1){
+            if(i >= 1){
                 break;
             }
         }
