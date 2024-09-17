@@ -8,7 +8,8 @@ function busTicketA1(){
     if(availableSeat > selectedSeat){
         const seatCount = getTextElementValueById('seat-count');
         const updateSeatCount = seatCount + 1;
-        setTextElementValueById('seat-count', updateSeatCount); 
+        setTextElementValueById('seat-count', updateSeatCount);
+        break;
     }
     else {
         console.log('Nothing')
